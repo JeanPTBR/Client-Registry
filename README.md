@@ -41,7 +41,7 @@ ___
 - Created a Factory method function to register users;
 - Developed functions to save and retrieve data from localStorage;
 - Created the function to register users in localStorage:
-    - I had previously created a [**voting website**](https://github.com/JeanPTBR/votarjogos) with registration using modals from the [___SweetAlert2___](https://sweetalert2.github.io/) library, ___PHP___, and ___SQL___, so I did not use the HTML form for this.
+    - I had previously created a voting website with registration using modals from the [___SweetAlert2___](https://sweetalert2.github.io/) library, ___PHP___, and ___SQL___, so I did not use the HTML form for this.
 - Understood how table rows work to add them via JS;
 - Created functions to display each registration (object) as a new row in the HTML table;
 - Added functionalities to delete and edit records.
