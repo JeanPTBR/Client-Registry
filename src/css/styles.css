@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+/* Manter os campos do modal do SweetAlert2 com o mesmo tamanho */
+.swal2-input {
+    width: 70%;
+}
+/* Estiliza o título */
+.title {
+    color: #333; /* Define uma cor de texto cinza escuro */
+    text-align: center; /* Centraliza o texto do título */
+}
+
+/* Estiliza o botão de cadastro */
+#botaoCadastro {
+    display: block; /* Faz o botão ocupar a largura total disponível */
+    width: 200px;
+    margin: 60px auto; /* Centraliza o botão horizontalmente */
+    padding: 20px; /* Adiciona espaço dentro do botão ao redor do texto */
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    text-shadow: 0px 2px 4px black;
+    background-color: #5cb85c; /* Define uma cor de fundo verde para o botão */
+    color: white; /* Define uma cor de texto branca para contrastar com o fundo verde */
+    border-radius: 10px; /* Arredonda os cantos do botão */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#botaoCadastro:hover {
+    background-color: #369136;
+    scale: 120%;
+    transition: 0.3s;
+}
+
+/* Estiliza a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estiliza os cabeçalhos da tabela */
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Estiliza as células da tabela */
+td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Alterna a cor de fundo das linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Alterna a cor de fundo das linhas impares da tabela */
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+/* Estiliza os botões de ação (Apagar e Editar) */
+.botoesApagarEditar {
+    background-color: rgb(170, 28, 28);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+.botoesApagarEditar:hover {
+    background-color: #5a1715;
+    scale: 110%;
+    transition: 0.3s ease-out;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 152, 185);
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
