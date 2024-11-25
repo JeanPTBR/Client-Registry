@@ -14,7 +14,7 @@ Clone my branch from the repository using Git or download and extract the .zip f
 
 To clone only my branch from the repository using Git, run the following command:
 ```sh
-git clone -b jean-carlos --single-branch https://github.com/Compass-pb-aws-2024-JUNHO/sprint-1-pb-aws-junho.git
+git clone https://github.com/JeanPTBR/Client-Registry.git
 ```
 1. Open the repository in VS Code and start the **index.html** file in Live Server to run the Registration System;
 
